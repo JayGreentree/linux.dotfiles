@@ -14,7 +14,7 @@ if hash vim-addon  2>/dev/null; then
     echo "vim-addon (vim-scripts)  installed"
 else
     echo "vim-addon (vim-scripts) not installed, installing"
-    sudo apt update && sudo apt -y install vim-scripts
+    sudo yum update && sudo yum -y install vim-scripts
 fi
 
 echo "Installed"
